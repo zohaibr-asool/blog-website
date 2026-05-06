@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Your Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="left">
+            <img src="./assets/logo.png" height="60" width="60" alt="Logo">
+        </div>
+        <div class="right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="career.html">Career</a>
+        </div>
+        <div class="profile">
+            <img src="./assets/pngtree-man-avatar-image-for-profile-png-image_13001882.png" alt="Profile">
+            <button class="login-btn"><a href="login.html">Login</a></button>
+        </div>
+    </nav>
+
+    <!-- Login Container -->
+    <div class="login-container">
+        <h1 class="maintext">Login to your account</h1>
+        
+        <form id="loginForm" class="login-form">
+            <div class="input-box">
+                <img src="./assets/icons8-email-48.png" alt="Email">
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="input-box">
+                <img src="./assets/icons8-password-code-50.png" alt="Password">
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="options">
+                <label>
+                    <input type="checkbox" id="remember">
+                    Remember me
+                </label>
+                <a href="#" class="forgot">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+
+        <p class="signup-link">
+            Don't have an account? <a href="signup.html">Sign up</a>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
